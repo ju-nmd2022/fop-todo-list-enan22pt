@@ -18,4 +18,10 @@ const addedToList = document.createElement("li");
 addedToList.innerText = addToListElement.value;
 toDoListElement.appendChild(addedToList);
 addedToList.value="";
+
+//clear the imput value
+if(addToListElement.value!=""){
+    addToListElement.value="";
 }
+}
+
