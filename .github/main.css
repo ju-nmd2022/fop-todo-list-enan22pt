@@ -50,7 +50,6 @@ border-radius: 20px;}
 }
 #actuallist{
     background-color: rgba(240, 248, 255, 0.574);
-    
     position: absolute; 
     left:50%;
     top:10%;
@@ -64,7 +63,16 @@ p{
     text-decoration-line: underline;
 }
 
-#donelist{
-    margin-top: 20px;
+.done{
     text-decoration: line-through;
 }
+
+li:hover .toDoCat {
+    display: inline;
+     width: 30px;
+     margin-left: 10px;
+  }
+  .toDoCat {
+    display: none;
+   
+  }
