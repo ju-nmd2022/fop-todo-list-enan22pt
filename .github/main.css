@@ -15,6 +15,10 @@ h1{
     text-align: center;
     text-decoration:underline;}    
 
+.cat2{
+    height: 50px;
+}    
+
 .backpic{
     justify-self: center;
     height: 110%;
@@ -63,16 +67,22 @@ p{
     text-decoration-line: underline;
 }
 
+.cat3{
+height: 50px;
+margin-bottom: -15px;
+}
+
 .done{
     text-decoration: line-through;
 }
 
-li:hover .toDoCat {
+li:hover .deletebutton{
     display: inline;
-     width: 30px;
-     margin-left: 10px;
-  }
-  .toDoCat {
-    display: none;
-   
-  }
+}
+.deletebutton{
+display: none;
+margin-left: 20px;
+background-color: pink;
+border-radius: 20px;
+border-color: rgb(136, 92, 104);
+}
