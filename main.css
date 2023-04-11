@@ -1,0 +1,88 @@
+html, body{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    background-color: rgb(255, 173, 182);}
+
+.content{
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-items: center;} 
+
+h1{
+    text-align: center;
+    text-decoration:underline;}    
+
+.cat2{
+    height: 50px;
+}    
+
+.backpic{
+    justify-self: center;
+    height: 110%;
+    width: auto;}
+
+#addbutton{
+    grid-column: 1;
+    background-color: pink;
+    border-radius: 20px;
+    border-color: rgb(136, 92, 104);
+    width: 50px;
+    height: 30px;}
+
+#addbutton:hover{
+    border-color: rgb(96, 57, 67);
+    background-color: rgb(213, 61, 102);}
+
+#entertext{
+border-color: rgb(136, 92, 104);
+grid-column: 1;
+width: 150px;
+height: 25px;
+border-radius: 20px;}
+
+#buttoncat{
+    width: 100px;
+    height: auto;
+    margin-left: -20px;}
+
+#goinglist{
+    position:relative;
+    text-align: center;
+}
+#actuallist{
+    background-color: rgba(240, 248, 255, 0.574);
+    position: absolute; 
+    left:50%;
+    top:10%;
+    transform: translate(-50%, 0%);
+    font-size: 150%;
+    font-weight: bold;
+}
+p{
+    margin-top:10%;
+    font-size: 150%;
+    text-decoration-line: underline;
+}
+
+.cat3{
+height: 50px;
+margin-bottom: -15px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+li:hover .deletebutton{
+    display: inline;
+}
+.deletebutton{
+display: none;
+margin-left: 20px;
+background-color: pink;
+border-radius: 20px;
+border-color: rgb(136, 92, 104);
+}

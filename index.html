@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>To Do List 
+        <img src="cat2.png" class="cat2"/></h1>
+    </header>
+    <main class="container">
+        <div class="content">
+
+            <!-- Where you add the actions to the list -->
+      <div id="text"> <input type="text" id="entertext" placeholder="  Future Actions"> 
+      <button id="addbutton">Add</button>
+      <img src="cat1.png" id="buttoncat"/>   </div>
+
+      <!-- The on going list -->
+  <div id ="goinglist">
+    <div id="actuallist"></div>
+    <img src="thelovers.jpeg" class="backpic"/>   
+  </div>
+
+
+<!-- The finished list -->
+<div><p>Finished <img src="cat3.png" class="cat3"/> </p>
+    <div id="donelist"></div>
+</div>
+
+        </div>
+    </main>
+</body>
+</html>
